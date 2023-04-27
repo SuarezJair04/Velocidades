@@ -70,6 +70,39 @@ function setup() {
 
 function draw() {
   background(220);
+  if (mouseX <= 1000 ){
+    if (mouseY <= 100){
+    textSize(20)
+  text("Velocidad Base",200,90);
+      }
+  }
+  if (mouseX <= 1000 ){
+    if (mouseY <= 150){
+    textSize(20)
+  text("Velocidad reducida 0.6363",200,180);
+      }
+  }
+  if (mouseX <= 1000 ){
+    if (mouseY <= 250){
+    textSize(20)
+  text("Velocidad reducida 0.1263",200,235);
+      }
+  }
+  if (mouseX <= 1000 ){
+    if (mouseY <= 300){
+    textSize(20)
+  text("Velocidad reducida 0.227",200,295);
+      }
+  }
+  if (mouseX <= 1000 ){
+    if (mouseY <= 400){
+    textSize(20)
+  text("Velocidad aumentada 2.27",200,400);
+      }
+  }
+  
+  textSize(20)
+  text("Speed comparison between vehicles",500,30);
   //creamos ciclo for donde i es igual a 0 e i debe de ser menor al tamanio del vehiculo, se le agrega un +1 cada vez que se hace el proceso
   for (let i = 0; i < vehiculo.length; i++){
     //uso de matriz para usar funciones de conduce y mostrar
